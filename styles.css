@@ -1,0 +1,101 @@
+body{
+    background-color:#7771ac;
+}
+.main {
+    text-align: center;
+    margin-left: 120px;
+
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(132, 188, 156);
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 75px;
+    color: rgb(132, 188, 156);
+}
+p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(240, 230, 239);
+    padding: 25px;
+    width: 80%;
+    background-color:rgb(45, 48, 71);
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px; /* Set the width to the desired size */
+  margin-top: 3%;
+  margin-left: 3%;
+  height: 50%; /* Set the height to occupy the full height of the viewport */
+  background-color: rgb(45, 48, 71);
+  padding: 10px;
+  z-index: 999;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  text-align: center;
+  margin: 0s; /* Add margin to push the navigation menu down from the logo */
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: block; /* Change the display to block to make the navigation items stack vertically */
+}
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(132, 188, 156);
+  font-size: 20px; /* Reduce the font size to fit within the smaller header */
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+nav a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+.logo {
+  width: 80px; /* Adjust the width to the desired size */
+}
+.produitsposterplusdescrip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+.poster {
+  max-width: 26%;
+  margin-left: 50px;
+}
+.textplusimage{
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.QR{
+  margin-top: 50px;
+  width: 200px;
+  border-radius: 25px;
+}
